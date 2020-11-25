@@ -8,15 +8,17 @@
 body {
     margin: 0;
     font: 1em;
+    color: #1b1e23;
+    font-weight: lighter;
 }
 
 h1 {
     font-size: 5rem;
-    color: slategray;
+    color: whitesmoke;
     text-transform: uppercase;
     font-weight: normal;
     line-height: 1.2;
-    text-shadow: 2px 2px 2px slateblue;
+    text-shadow: 5px 5px 5px #1b1e23;
     margin-top: 12px 0 0;
 }
 
@@ -31,14 +33,16 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5em;
+    color: #1b1e23;
+    text-shadow: .5px .5px .5px slategray;
+    font-size: 2em;
     line-height: 1.1;
 }
 
 img {
     max-width: 100%;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 ul {
@@ -67,6 +71,32 @@ a:active {
 
 /* Main Styles -------------------- */
 
+.main-header {
+    padding-top: 170px;
+    height: 1000px;
+    background: linear-gradient(slategray, transparent 90%);
+    background-image: url(../img/background-image.webp);
+    background-size: cover;
+}
+
+.title {
+    color: white;
+    text-shadow: 2px 2px 1px #1b1e23;
+}
+
+.main-header, .primary-content, .secondary-content {
+    text-align: center;
+}
+
+.primary-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.secondary-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 /* Layout Styles ------------------ */
 
 /* Media Queries ------------------ */
