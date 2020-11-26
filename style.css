@@ -7,7 +7,7 @@
 
 body {
     margin: 0;
-    font: 1em;
+    font: 1rem;
     color: #1b1e23;
     font-weight: lighter;
 }
@@ -53,7 +53,7 @@ ul {
 /* Pseudo-classes ----------------- */
 
 a:link {
-    color:silver;
+    color: LightSlateGray;
     text-decoration: none;
 }
 
@@ -72,7 +72,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #1b1e23;
+    background-color: dimgray;
   }
   
   li {
@@ -81,7 +81,6 @@ ul {
   
   li a {
     display: block;
-    color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
