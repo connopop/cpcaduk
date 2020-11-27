@@ -10,13 +10,15 @@ body {
     font: 1em;
     color: #1b1e23;
     font-weight: lighter;
+    background: linear-gradient(slategray, transparent 50%), linear-gradient(0deg, #fff, transparent), url(../img/background-image.webp) no-repeat center;
+    background-size: cover;
 }
 
 h1 {
     float: right;
     padding-right: 5%;
     font-size: 2.5rem;
-    color: whitesmoke;
+    color: white;
     text-transform: lowercase;
     font-weight: normal;
     line-height: 1.2;
@@ -34,7 +36,7 @@ h1 {
                  11px 11px 10px rgba(27,30,35,0.6),
                  11px 11px 1px rgba(27,30,35,0.5),
                  0px 0px 10px rgba(27,30,35,.2);
-    margin-top: 12px 0 0;
+    margin-top: 0 0 0;
 }
 
 h2 {
@@ -68,16 +70,16 @@ ul {
 /* Pseudo-classes ----------------- */
 
 a:link {
-    color:slategray;
+    color: slategray;
     text-decoration: none;
 }
 
 a:hover {
-    color: lightslategray;
+    color: steelblue;
 }
 
 a:active {
-    color: lightsteelblue;
+    color: slategrey;
 }
 
 /* Navbar Styles -------------------- */
@@ -86,15 +88,18 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-bottom: 0;
     overflow: hidden;
     background-color: #1b1e23;
   }
   
   li {
     float: left;
+    padding-top: 20px;;
   }
   
   li a {
+    font-size: 1.5rem;
     display: block;
     color: whitesmoke;
     text-align: center;
@@ -113,18 +118,15 @@ ul {
   /* Main Styles -------------------- */
 
 .main-header {
-    padding-top: 100px;
-    height: 1000px;
-    background: linear-gradient(slategray, transparent 90%), linear-gradient(0deg, #fff, transparent), url(../img/background-image.webp) no-repeat center;
-    background-size: cover;
+    padding: 0 0 0 50px;
+    height: 750px;
 }
 
 .title {
-    color: whitesmoke;
+    color: #1b1e23;
     font-size: 2.5rem;
-    text-shadow: 5px 5px 5px #1b1e23;
     letter-spacing: 0.1rem;
-    font-weight: lighter;
+
     padding-bottom: 10px;
 }
 
@@ -133,7 +135,7 @@ ul {
 }
 
 .primary-content {
-    padding-top: 10px;
+    padding-top: 100px;
     padding-bottom: 10px;
     max-width: 80%;
 }
@@ -159,3 +161,4 @@ ul {
 }
 
 /* Media Queries ------------------ */
+
